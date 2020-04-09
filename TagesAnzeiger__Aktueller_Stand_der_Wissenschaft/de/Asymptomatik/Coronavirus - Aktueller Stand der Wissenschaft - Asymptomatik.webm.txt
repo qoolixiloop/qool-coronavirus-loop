@@ -1,0 +1,2 @@
+Started render process: /usr/bin/melt /tmp/kdenlive_rendering_s12577.mlt in=0 out=2232 -profile /home/benzro/.local/share/kdenlive/profiles/customprofile2 -consumer avformat:/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/Asymptomatik/Coronavirus - Aktueller Stand der Wissenschaft - Asymptomatik.webm progress=1 f=webm vcodec=libvpx acodec=libvorbis crf=23 vb=0 quality=good aq=6 max-intra-rate=1000 cpu-used=4 threads=1 real_time=-1
+Job aborted by user
