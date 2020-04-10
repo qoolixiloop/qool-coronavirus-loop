@@ -1,14 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt title="Anonymous Submission" LC_NUMERIC="de_CH.UTF-8" producer="main bin" version="6.6.0" root="/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/Serielles Intervall">
+<mlt title="Anonymous Submission" LC_NUMERIC="de_CH.UTF-8" producer="main bin" version="6.6.0" root="/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/Verbreitung">
  <profile frame_rate_num="5" sample_aspect_num="1" display_aspect_den="21" colorspace="709" progressive="1" description="A4 quer" display_aspect_num="30" frame_rate_den="1" width="1784" height="1264" sample_aspect_den="1"/>
  <producer title="Anonymous Submission" id="1" in="0" out="845">
   <property name="length">846</property>
   <property name="eof">pause</property>
   <property name="resource">/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/aaa_shared/Deckblatt  200409_208.mp3</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16p</property>
@@ -22,6 +18,10 @@
   <property name="meta.attr.title.markup">200409_208</property>
   <property name="meta.attr.artist.markup">My Recording</property>
   <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:file_size">4090148</property>
   <property name="kdenlive:file_hash">bef36a3c373cf1cb2dc8acf81233061d</property>
   <property name="global_feed">1</property>
@@ -30,10 +30,6 @@
   <property name="length">105</property>
   <property name="eof">pause</property>
   <property name="resource">/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/aaa_shared/TagiOriginalArtikel_NoiseReduction.mp3</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16p</property>
@@ -47,12 +43,16 @@
   <property name="meta.attr.title.markup">200407_364</property>
   <property name="meta.attr.artist.markup">My Recording</property>
   <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:file_size">472516</property>
   <property name="kdenlive:file_hash">59652ce7a98d3b71fdf2f50eb35a2d2d</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="3" in="0" out="289">
-  <property name="length">290</property>
+ <producer id="3" in="0" out="292">
+  <property name="length">293</property>
   <property name="eof">pause</property>
   <property name="resource">/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/aaa_shared/Wissenschaftliche Erkenntnisse zum neuen Coronavirus.png</property>
   <property name="ttl">25</property>
@@ -71,10 +71,6 @@
   <property name="length">267</property>
   <property name="eof">pause</property>
   <property name="resource">/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/TagesAnzeiger__Aktueller_Stand_der_Wissenschaft/de/aaa_shared/Wissenschaftliche Erkenntnisse zum neuen Coronavirus 200408_072.mp3</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16p</property>
@@ -88,6 +84,10 @@
   <property name="meta.attr.title.markup">200408_072</property>
   <property name="meta.attr.artist.markup">My Recording</property>
   <property name="seekable">1</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="kdenlive:file_size">1271327</property>
   <property name="kdenlive:file_hash">c3c7ec988b59fd3c8869625af0daac74</property>
   <property name="global_feed">1</property>
@@ -96,10 +96,6 @@
   <property name="length">470</property>
   <property name="eof">pause</property>
   <property name="resource">/home/benzro/Documents/LxTerminal_UnixCommands/qoolixiloopAgithub/qool-coronavirus-loop/aaa_Endscreen/endscreen.mp4</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">5</property>
@@ -132,6 +128,10 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.frame_rate_num">5</property>
   <property name="meta.media.frame_rate_den">1</property>
   <property name="meta.media.colorspace">709</property>
@@ -144,8 +144,8 @@
   <property name="kdenlive:file_hash">ce621601f54b07c564d8347e5d37b7b6</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="6" in="0" out="1066">
-  <property name="length">1067</property>
+ <producer id="6" in="0" out="1046">
+  <property name="length">1047</property>
   <property name="eof">pause</property>
   <property name="resource">Deckblatt.png</property>
   <property name="ttl">25</property>
@@ -157,17 +157,13 @@
   <property name="meta.media.height">794</property>
   <property name="mlt_service">pixbuf</property>
   <property name="kdenlive:duration">25</property>
-  <property name="kdenlive:file_size">1911120</property>
-  <property name="kdenlive:file_hash">048d6a8a1d38d7211ab1ed197811e1c3</property>
+  <property name="kdenlive:file_size">1911019</property>
+  <property name="kdenlive:file_hash">f9600b4fecf75f9980a347ac6763f9b2</property>
  </producer>
  <producer title="Anonymous Submission" id="7" in="0" out="159">
   <property name="length">160</property>
   <property name="eof">pause</property>
-  <property name="resource">Deckblatt  200409_198.mp3</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">Deckblatt  200409_203.mp3</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16p</property>
@@ -175,20 +171,24 @@
   <property name="meta.media.0.codec.channels">2</property>
   <property name="meta.media.0.codec.name">mp3</property>
   <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">200625</property>
+  <property name="meta.media.0.codec.bit_rate">192141</property>
   <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
   <property name="meta.attr.Encoded by.markup">SONY IC RECORDER MP3 3.1.8</property>
-  <property name="meta.attr.title.markup">200409_198</property>
+  <property name="meta.attr.title.markup">200409_203</property>
   <property name="meta.attr.artist.markup">My Recording</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">802612</property>
-  <property name="kdenlive:file_hash">8c6b61e9a71a24048c22cb9630678d6b</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:file_size">769931</property>
+  <property name="kdenlive:file_hash">f0aebaca3e827ed2259d39b38054bf39</property>
   <property name="global_feed">1</property>
  </producer>
- <producer id="8" in="0" out="422">
-  <property name="length">423</property>
+ <producer id="8" in="0" out="589">
+  <property name="length">590</property>
   <property name="eof">pause</property>
-  <property name="resource">Serielles Intervall.png</property>
+  <property name="resource">Verbreitung.png</property>
   <property name="ttl">25</property>
   <property name="aspect_ratio">1</property>
   <property name="progressive">1</property>
@@ -198,17 +198,13 @@
   <property name="meta.media.height">794</property>
   <property name="mlt_service">pixbuf</property>
   <property name="kdenlive:duration">25</property>
-  <property name="kdenlive:file_size">234212</property>
-  <property name="kdenlive:file_hash">e9a434f37034d827dc800d6a1aec46cf</property>
+  <property name="kdenlive:file_size">364310</property>
+  <property name="kdenlive:file_hash">8a330c9f1578fc5b057d222a7fc6bf7c</property>
  </producer>
- <producer title="Anonymous Submission" id="9" in="0" out="278">
-  <property name="length">279</property>
+ <producer title="Anonymous Submission" id="9" in="0" out="444">
+  <property name="length">445</property>
   <property name="eof">pause</property>
-  <property name="resource">Serielles Intervall_NoiseReduction.mp3</property>
-  <property name="audio_index">0</property>
-  <property name="video_index">-1</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
+  <property name="resource">Verbreitung_NoiseReduction.mp3</property>
   <property name="meta.media.nb_streams">1</property>
   <property name="meta.media.0.stream.type">audio</property>
   <property name="meta.media.0.codec.sample_fmt">s16p</property>
@@ -216,14 +212,18 @@
   <property name="meta.media.0.codec.channels">2</property>
   <property name="meta.media.0.codec.name">mp3</property>
   <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">182925</property>
+  <property name="meta.media.0.codec.bit_rate">180213</property>
   <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
   <property name="meta.attr.Encoded by.markup">SONY IC RECORDER MP3 3.1.8</property>
-  <property name="meta.attr.title.markup">200407_288</property>
+  <property name="meta.attr.title.markup">200408_005</property>
   <property name="meta.attr.artist.markup">My Recording</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">1277750</property>
-  <property name="kdenlive:file_hash">eeac854f38119fa18ace8c967ddd7040</property>
+  <property name="audio_index">0</property>
+  <property name="video_index">-1</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="kdenlive:file_size">2006733</property>
+  <property name="kdenlive:file_hash">4d13eb204492020d65d215a8a580c60f</property>
   <property name="global_feed">1</property>
  </producer>
  <playlist id="main bin">
@@ -231,12 +231,12 @@
   <property name="kdenlive:docproperties.decimalPoint">.</property>
   <property name="kdenlive:docproperties.dirtypreviewchunks"/>
   <property name="kdenlive:docproperties.disablepreview">0</property>
-  <property name="kdenlive:docproperties.documentid">1586524207781</property>
+  <property name="kdenlive:docproperties.documentid">1586550859507</property>
   <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
   <property name="kdenlive:docproperties.kdenliveversion">17.12.3</property>
-  <property name="kdenlive:docproperties.position">0</property>
+  <property name="kdenlive:docproperties.position">2004</property>
   <property name="kdenlive:docproperties.previewchunks"/>
   <property name="kdenlive:docproperties.previewextension"/>
   <property name="kdenlive:docproperties.previewparameters"/>
@@ -271,7 +271,7 @@
   <property name="kdenlive:docproperties.rendertcoverlay">0</property>
   <property name="kdenlive:docproperties.rendertctype">0</property>
   <property name="kdenlive:docproperties.rendertwopass">0</property>
-  <property name="kdenlive:docproperties.renderurl">Coronavirus - Wissenschaftliche Erkenntnisse - Serielles Intervall.mp4</property>
+  <property name="kdenlive:docproperties.renderurl">Coronavirus - Wissenschaftliche Erkenntnisse - Verbreitung.mp4</property>
   <property name="kdenlive:docproperties.renderzone">0</property>
   <property name="xml_retain">1</property>
   <entry producer="1" in="0" out="845"/>
@@ -282,7 +282,7 @@
   <entry producer="6" in="0" out="24"/>
   <entry producer="7" in="0" out="159"/>
   <entry producer="8" in="0" out="24"/>
-  <entry producer="9" in="0" out="278"/>
+  <entry producer="9" in="0" out="444"/>
  </playlist>
  <producer id="black" in="0" out="500">
   <property name="length">15000</property>
@@ -293,7 +293,7 @@
   <property name="set.test_audio">0</property>
  </producer>
  <playlist id="black_track">
-  <entry producer="black" in="0" out="2224"/>
+  <entry producer="black" in="0" out="2397"/>
  </playlist>
  <playlist id="playlist1">
   <property name="kdenlive:audio_track">1</property>
@@ -302,14 +302,14 @@
  <producer title="Anonymous Submission" id="7_playlist2" in="0" out="159">
   <property name="length">160</property>
   <property name="eof">pause</property>
-  <property name="resource">Deckblatt  200409_198.mp3</property>
+  <property name="resource">Deckblatt  200409_203.mp3</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">802612</property>
-  <property name="kdenlive:file_hash">8c6b61e9a71a24048c22cb9630678d6b</property>
+  <property name="kdenlive:file_size">769931</property>
+  <property name="kdenlive:file_hash">f0aebaca3e827ed2259d39b38054bf39</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">1</property>
@@ -319,10 +319,10 @@
   <property name="meta.media.0.codec.channels">2</property>
   <property name="meta.media.0.codec.name">mp3</property>
   <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">200625</property>
+  <property name="meta.media.0.codec.bit_rate">192141</property>
   <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
   <property name="meta.attr.Encoded by.markup">SONY IC RECORDER MP3 3.1.8</property>
-  <property name="meta.attr.title.markup">200409_198</property>
+  <property name="meta.attr.title.markup">200409_203</property>
   <property name="meta.attr.artist.markup">My Recording</property>
  </producer>
  <producer title="Anonymous Submission" id="1_playlist2" in="0" out="845">
@@ -365,17 +365,17 @@
   <property name="meta.attr.title.markup">200408_072</property>
   <property name="meta.attr.artist.markup">My Recording</property>
  </producer>
- <producer title="Anonymous Submission" id="9_playlist2" in="0" out="278">
-  <property name="length">279</property>
+ <producer title="Anonymous Submission" id="9_playlist2" in="0" out="444">
+  <property name="length">445</property>
   <property name="eof">pause</property>
-  <property name="resource">Serielles Intervall_NoiseReduction.mp3</property>
+  <property name="resource">Verbreitung_NoiseReduction.mp3</property>
   <property name="audio_index">0</property>
   <property name="video_index">-1</property>
   <property name="mute_on_pause">1</property>
   <property name="mlt_service">avformat-novalidate</property>
   <property name="seekable">1</property>
-  <property name="kdenlive:file_size">1277750</property>
-  <property name="kdenlive:file_hash">eeac854f38119fa18ace8c967ddd7040</property>
+  <property name="kdenlive:file_size">2006733</property>
+  <property name="kdenlive:file_hash">4d13eb204492020d65d215a8a580c60f</property>
   <property name="global_feed">1</property>
   <property name="xml">was here</property>
   <property name="meta.media.nb_streams">1</property>
@@ -385,10 +385,10 @@
   <property name="meta.media.0.codec.channels">2</property>
   <property name="meta.media.0.codec.name">mp3</property>
   <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-  <property name="meta.media.0.codec.bit_rate">182925</property>
+  <property name="meta.media.0.codec.bit_rate">180213</property>
   <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
   <property name="meta.attr.Encoded by.markup">SONY IC RECORDER MP3 3.1.8</property>
-  <property name="meta.attr.title.markup">200407_288</property>
+  <property name="meta.attr.title.markup">200408_005</property>
   <property name="meta.attr.artist.markup">My Recording</property>
  </producer>
  <producer title="Anonymous Submission" id="2_playlist2" in="0" out="104">
@@ -420,14 +420,14 @@
  <playlist id="playlist2">
   <property name="kdenlive:audio_track">1</property>
   <property name="kdenlive:track_name">Audio 1</property>
-  <blank length="12"/>
+  <blank length="15"/>
   <entry producer="7_playlist2" in="0" out="159"/>
-  <blank length="12"/>
+  <blank length="13"/>
   <entry producer="1_playlist2" in="0" out="845"/>
-  <blank length="25"/>
+  <blank length="26"/>
   <entry producer="4_playlist2" in="0" out="266"/>
-  <blank length="23"/>
-  <entry producer="9_playlist2" in="0" out="278"/>
+  <blank length="26"/>
+  <entry producer="9_playlist2" in="0" out="444"/>
   <blank length="14"/>
   <entry producer="2_playlist2" in="0" out="104"/>
  </playlist>
@@ -486,9 +486,9 @@
  </producer>
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 1</property>
-  <entry producer="6" in="0" out="1042"/>
-  <entry producer="3" in="0" out="288"/>
-  <entry producer="8" in="0" out="421"/>
+  <entry producer="6" in="0" out="1045"/>
+  <entry producer="3" in="0" out="291"/>
+  <entry producer="8" in="0" out="588"/>
   <entry producer="5_playlist3" in="0" out="469"/>
  </playlist>
  <playlist id="playlist4">
@@ -497,7 +497,7 @@
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Video 3</property>
  </playlist>
- <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="2224">
+ <tractor title="Anonymous Submission" id="maintractor" global_feed="1" in="0" out="2397">
   <track producer="black_track"/>
   <track hide="video" producer="playlist1"/>
   <track hide="video" producer="playlist2"/>
